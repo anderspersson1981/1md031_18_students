@@ -1,0 +1,29 @@
+/*@import url("reset.css");*/
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+
+body {
+  font-family: Pacifico, sans-serif;
+}
+
+section {
+  border: 0.5em solid #AAAA00;
+  margin-bottom:0.5em;
+  padding:0.5em;
+}
+
+#burgers {
+  background-color: black;
+  color: white;
+}
+#contact {
+  background-color: lightgrey;
+}
+
+input[type="radio"] {
+    height: .7em;
+    width: .7em;
+}
+
+button:hover {
+    cursor: pointer;
+}

@@ -1,9 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DELI-VERY</title>
+        <title>Ape DELI-VERY</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     </head>
     <body>
-        <h1>Hello World!!! Lets do this shit.</h1>
+      <main>
+        <header>
+          <h1>Welcome to Ape Burger Place</h1>
+        </header>
+        <section id="burgers">
+          <h2>Select Burger</h2>
+          <p>Some t3xt.</p>
+          <table>
+            <thead>
+              <th>Beer name</th>
+              <th>Type</th>
+              <th>Price</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td width=300 align=middle><img src="https://thumbs.dreamstime.com/b/monkey-cartoon-character-burger-d-rendered-illustration-71849933.jpg" alt="Ape Burger" width=50></td>
+                <td><img src="https://thumbs.dreamstime.com/b/monkey-cartoon-character-burger-d-rendered-illustration-71849933.jpg" alt="Ape Burger" width=200></td>
+                <td><img src="https://thumbs.dreamstime.com/b/monkey-cartoon-character-burger-d-rendered-illustration-71849933.jpg" alt="Ape Burger" width=200></td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>600 kcal</li>
+                    <li>Say Cheese!</li>
+                    <li>Gluten free</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>600 kcal</li>
+                    <li>Say Cheese!</li>
+                    <li>Gluten free</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li>600 kcal</li>
+                    <li>Say Cheese!</li>
+                    <li>Gluten free</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!--<h3>Ape Burger Deluxe</h3>
+          <img src="https://thumbs.dreamstime.com/b/monkey-cartoon-character-burger-d-rendered-illustration-71849933.jpg" alt="Ape Burger" width=200>
+          <ul>
+            <li>600 kcal</li>
+            <li>Say Cheese!</li>
+            <li>Gluten free</li>
+          </ul>
+          <h2>Customer info</h2>
+          <p>Some additional info.</p>-->
+        </section>
+        <section id="contact">
+          <form>
+            <p>
+              <label for="firstname">First</label><br>
+              <input type="text" id="firstname" name="fn" required="required" placeholder="First name">
+            </p>
+            <p>
+              <label for="lastname">Last</label><br>
+              <input type="text" id="lastname" name="ln" placeholder="Last name">
+            </p>
+            <p>
+              <label for="email">E-mail</label><br>
+              <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+            </p>
+            <p>
+              <label for="recipient">Recipient</label><br>
+              <select id="recipient" name="rcp">
+                <option>Head Office</option>
+                <option selected="selected">London Branch</option>
+                <option>Philadelphia Branch</option>
+                <option>Malmö Branch</option>
+                <option>Melbourne Branch</option>
+              </select>
+            </p>
+            <p>
+              Please select your gender:<br>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label><br>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label><br>
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">Other</label>
+            </p>
+            <button type="submit"><img src="./static/1md034/img/html/image_button.png"> Send Info</button>
+          </form>
+        </section>
+      </main>
     </body>
 </html>
